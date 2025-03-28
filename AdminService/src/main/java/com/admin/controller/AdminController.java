@@ -28,6 +28,7 @@ public class AdminController {
 
 	@PostMapping("/register")
 	public AdminDTO addAdmin(@RequestBody Admin admin) {
+//		for commit
 		return adminServiceImpl.addAdmin(admin);
 	}
 
